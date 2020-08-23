@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,500,700&display=swap");
-/*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -63,7 +58,7 @@ body {
   outline: 0 !important; }
 
 hr {
-  box-sizing: content-box;
+  box-sizing: 100px;
   height: 0;
   overflow: visible; }
   h1,h5{text-align: center;}
@@ -2337,7 +2332,7 @@ input[type="button"].btn-block {
   width: 100%;
   padding: 0.25rem 1.5rem;
   clear: both;
-  font-weight: 400;
+  font-weight: 800;
   color: #212529;
   text-align: inherit;
   white-space: nowrap;
@@ -7494,7 +7489,7 @@ a.text-dark:hover, a.text-dark:focus {
     .oleez-landing-section:nth-child(odd) .oleez-landing-section-content .oleez-landing-section-verticals::after {
       background-color: #dadada; }
   .oleez-landing-section .oleez-landing-section-content {
-    padding-left: 212px;
+    padding-left: 25px;
     position: relative; }
     @media (max-width: 991px) {
       .oleez-landing-section .oleez-landing-section-content {
@@ -7948,7 +7943,7 @@ a.text-dark:hover, a.text-dark:focus {
     .portfolio-grid-page .portfolio-card .project-thumbnail-wrapper {
       width: 120%;
       height: 195px;
-      margin-bottom: 25px;
+      margin-bottom: 0px;
       overflow: hidden; }
       .portfolio-grid-page .portfolio-card .project-thumbnail-wrapper .project-thumbnail {
         width: 100%;
@@ -8003,7 +7998,7 @@ a.text-dark:hover, a.text-dark:focus {
     .portfolio-list .project .project-content .project-title {
       font-size: 35px;
       font-weight: 700;
-      line-height: 1.29;
+      line-height: 0.29;
       margin-bottom: 20px; }
     .portfolio-list .project .project-content .project-link {
       font-size: 22px;
@@ -8118,7 +8113,7 @@ a.text-dark:hover, a.text-dark:focus {
   .blog-grid-page .blog-post-card .blog-post-title {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 10.5;
     margin-bottom: 0; }
 
 .blog-post-single .post-title {
@@ -8400,4 +8395,14 @@ a.text-dark:hover, a.text-dark:focus {
   color: #FF5733 ;
   text-align: center;
   
+}
+.tag{
+   color:  #000000 ;
+  text-align: center;
+  
+    height: 35px;
+    border: 2px solid   #FFC0CB; 
+border-width: 30px;
+width: auto;
+
 }
