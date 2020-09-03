@@ -3019,6 +3019,7 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
+  position: fixed;
   padding-top: 7px;
   padding-bottom: 7px;
   margin-right: 2.125rem;
@@ -7162,7 +7163,8 @@ a.text-dark:hover, a.text-dark:focus {
 @media (max-width: 767px) {
   .oleez-header .navbar {
     padding-left: 15px;
-    padding-right: 15px; } }
+    padding-right: 15px;
+     } }
 
 .oleez-header .navbar-toggler {
   border: 0; }
@@ -7171,7 +7173,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (max-width: 767px) {
   .oleez-header .navbar-brand {
-    margin-right: 0; }
+    margin-right: 0; 
+    position: fixed;}
     .oleez-header .navbar-brand img {
       width: 80px; } }
 
@@ -8399,12 +8402,13 @@ a.text-dark:hover, a.text-dark:focus {
 .tag{
    color:  #000000 ;
   text-align: center;
-  
-    height: 35px;
-    border: 2px solid   #FFC0CB; 
-border-width: 30px;
-width: auto;
-  font-size: 24px;
-  font-weight: 500;
 
-}
+    height: 35px;
+    border: 2px solid     #8B4513; 
+border-width: 10px;
+width: auto;
+
+
+ font-size: 24px;
+  font-weight: 500;
+  }
